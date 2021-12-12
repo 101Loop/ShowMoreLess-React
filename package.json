@@ -4,7 +4,15 @@
   "description": "React library to manage long paragraphs",
   "author": "iamdipanshusingh",
   "license": "MIT",
-  "repository": "iamdipanshusingh/ShowMoreLess-React",
+  "repository": "101Loop/ShowMoreLess-React",
+  "keywords": [
+    "react",
+    "show more",
+    "show less",
+    "read more",
+    "read less",
+    "long text"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
