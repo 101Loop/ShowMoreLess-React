@@ -1,5 +1,6 @@
 .DS_STORE
 dist
+docs
 node_modules
 scripts/flow/*/.flowconfig
 .flowconfig
