@@ -1,4 +1,4 @@
-# show-more-less
+# ShowMoreLess
 
 > React library to manage long paragraphs
 
@@ -14,34 +14,32 @@ npm install --save show-more-less
 
 ```tsx
 import React, { useState } from 'react'
-import styles from './ShowMoreLess.module.scss';
-import ShowLessMore from "show-more-less";
-import 'show-more-less/dist/index.css';
+import styles from './ShowMoreLess.module.scss'
+import ShowLessMore from 'show-more-less'
+import 'show-more-less/dist/index.css'
 
-type ExampleProps = {
-  value: string,
-}
+function Example() {
+  const text =
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolores, cumque tenetur omnis debitis eligendi illum adipisci. Amet, ex soluta. Consequatur ab minus voluptates illum exercitationem, repellat perferendis iure possimus.'
 
-function Example({ value }: ExampleProps) {
-  const [expanded, setExpanded] = useState(false);
+  const [expanded, setExpanded] = useState(false)
 
   return (
     <ShowLessMore
-      text={value}
+      text={text}
       threshold={800}
       expanded={expanded}
       onExpand={setExpanded}
       classes={{
         root: styles.root,
         text: styles.text,
-        clickable: styles.clickable,
+        clickable: styles.clickable
       }}
     />
-  );
+  )
 }
 
 export default Example
-
 ```
 
 ## License
