@@ -11,7 +11,8 @@
     "show less",
     "read more",
     "read less",
-    "long text"
+    "long text",
+    "long paragraph"
   ],
   "main": "dist/index.js",
   "module": "dist/index.modern.js",

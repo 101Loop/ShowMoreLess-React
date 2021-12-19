@@ -15,7 +15,7 @@ npm install --save show-more-less
 ```tsx
 import React, { useState } from 'react'
 import styles from './ShowMoreLess.module.scss'
-import ShowLessMore from 'show-more-less'
+import ShowMoreLess from 'show-more-less'
 import 'show-more-less/dist/index.css'
 
 function Example() {
@@ -25,7 +25,7 @@ function Example() {
   const [expanded, setExpanded] = useState(false)
 
   return (
-    <ShowLessMore
+    <ShowMoreLess
       text={text}
       threshold={800}
       expanded={expanded}
